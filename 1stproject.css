@@ -1,0 +1,102 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+.topheader{
+    /* background-color: aquamarine; */
+    margin-top: 10px;
+    overflow: hidden;
+    padding: 5px;
+}
+.call{
+    float: left;
+    margin-left: 10px;
+}
+#language{
+    float: right;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: -8px;
+
+}
+.fb {
+    float: left;
+    margin-right: 10px;
+}
+.navbar{
+      background-color: rgb(216, 216, 216);
+      overflow: hidden;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-top: 10px;
+     padding: 0px;
+     position: sticky;
+    top: 0;
+     width: 100%;
+        }
+.navbar a{
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+.navbar a:hover{
+            background-color: rgb(255, 255, 255);
+            color: black;
+        }
+.navbar a.active{
+            background-color: rgb(175, 36, 36);
+            color: white;
+        }
+.menu{
+            /* float: center; */
+            margin-left: 700px;
+            position: absolute;
+        }
+.logo{
+            /* float: left; */
+            margin-left: 200px;
+        }
+.hero-image1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banner.jpg");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  object-fit: cover;
+  text-align: center; 
+  color: rgb(255, 255, 255); 
+  padding-top: 100px;
+  
+}
+.hero-text{
+    text-align: center;
+    color: white;
+    /* margin-top: 100px; */
+}
+.center{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.service-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px; 
+    width: 250px;
+    &:hover {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        transform: translateY(-2px);
+        transition: all 0.3s ease;
+    }
+}
